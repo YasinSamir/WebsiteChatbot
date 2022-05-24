@@ -1,0 +1,88 @@
+
+body {
+    background-image: url("https://media.discordapp.net/attachments/650577096271331350/741909282810757140/Ryan_dumb.JPG?width=1080&height=532");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+#chatbot-box {
+    border-width: 2px;
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    background-color: rgb(236, 236, 236);
+    
+}
+
+#chatbot {
+    position : fixed;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.411);
+}
+
+#chatbot-header {
+    background-color: rgb(64, 153, 47);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 1px;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+   
+    height: relative;
+    min-height: 5px;
+    font-size: 15px;
+}
+
+
+.sent {
+   
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(221, 221, 221);
+
+
+    background-image: url('https://static.thenounproject.com/png/934541-200.png');
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+
+    padding-left: 40px;
+
+    color:rgb(158, 158, 158);
+    text-align: left;
+
+
+
+}
+
+
+.received {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(221, 221, 221);
+
+    background-image: url('https://cdn2.iconfinder.com/data/icons/thesquid-ink-40-free-flat-icon-pack/64/support-512.png');
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: 99% 10px;
+
+    padding-right: 40px;
+    color:rgb(66, 66, 66);
+    text-align: right;
+    
+}
+
+.input {
+    height: 20px;
+    width: 350px;
+    padding: 10px;
+    margin: 0px;
+}
