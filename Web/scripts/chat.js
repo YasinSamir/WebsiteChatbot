@@ -1,6 +1,6 @@
 
 var recruiterJson = {
-    'What is the membership for': 'Member ship tiers are for the amount of purchases and job posts made <br> Silver - 10 profile connections / downloads <br> Gold- 20 profile connection / downloads <br> Platinum - 50 profile connection/ downloads',
+    'What is the membership for': 'Membership tiers are for the amount of:<br> Purchases and job posts made <br> Silver - 10 profile connections / downloads <br> Gold- 20 profile connection / downloads <br> Platinum - 50 profile connection/ downloads',
     'How do I post a requirement': 'Login to your recruiter page, On the recruiter page click on the button Post Requirement to post a job.',
     'How do I refund a Purchased CV': 'We currently do not have a refund policy for a CV / Profile purchase. Kindly email us at liricare@liricare.com for any issues with regards to a purchased Profile / CV',
     'How do I message my Candidate': 'On the Top Right Part of your screen There is a Message icon. Click on it and Press (View All). <br> When you get redirected to the messaging page search for your candidtaes name.',
@@ -103,7 +103,8 @@ $(window).bind("load", function() {
         var div = document.createElement('div');
         
         div.className = "message sent"
-        div.innerHTML = "<p>" + message + "</p>"
+        div.innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/1024px-User_icon_2.svg.png">'
+        div.innerHTML += "<p>" + message + "</p>"
 
 
         chatBox.appendChild(div)
@@ -133,7 +134,8 @@ $(window).bind("load", function() {
 
         var div = document.createElement('div')
         div.className = "message received"
-        div.innerHTML = "<p>" + message + "</p>"
+        div.innerHTML = '<img src="https://cdn2.iconfinder.com/data/icons/thesquid-ink-40-free-flat-icon-pack/64/support-512.png">'
+        div.innerHTML += "<p>" + message + "</p>"
 
 
         chatBox.appendChild(div)
@@ -187,7 +189,7 @@ $(window).bind("load", function() {
                 sendReply("This question is not in our database!")
                 
             }  else {
-                elements[elements.length - 1].innerHTML = "<p>" + bestScore[1] + "</p>"
+                elements[elements.length - 1].innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/1024px-User_icon_2.svg.png">' + "<p>" + bestScore[1] + "</p>"
                 sendReply(questions[bestScore[1]])
             }
 
