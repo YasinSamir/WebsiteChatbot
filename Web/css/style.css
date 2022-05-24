@@ -1,0 +1,90 @@
+
+body {
+    background-image: url("https://media.discordapp.net/attachments/650577096271331350/741909282810757140/Ryan_dumb.JPG?width=1080&height=532");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+#chatbot-box {
+    border-width: 2px;
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    background-color: rgb(236, 236, 236);
+    
+}
+
+#chatbot {
+    position : fixed;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.411);
+}
+
+#chatbot-header {
+    background-color: rgb(64, 153, 47);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 1px;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+   
+    height: relative;
+    min-height: 5px;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.061);
+}
+
+
+.sent {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(221, 221, 221);
+
+    color:rgb(158, 158, 158);
+    text-align: left;
+}
+
+.sent img {
+    height:32px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 0px 0px 1px 1px rgb(206, 206, 206);
+}
+
+
+.received {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(221, 221, 221);
+
+
+    color:rgb(66, 66, 66);
+    text-align: left;
+}
+
+.received img {
+    height:32px;
+    border-radius: 50%;
+    float: right;
+
+}
+
+.received p {
+    margin-left: 10px;
+}
+
+.input {
+    height: 20px;
+    width: 350px;
+    padding: 10px;
+    margin: 0px;
+}
